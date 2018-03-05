@@ -14,6 +14,7 @@ if ($menu == true) {
     <?php $this->load->view($view) ?>
 </article>
 
+
 <?php
 $this->load->view('structure/footer');
 ?>

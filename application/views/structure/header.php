@@ -7,7 +7,7 @@
  */
 ?>
 <body>
-<header>
+<header style="position: fixed;width: 100%;top: 0; z-index: 1000">
     <nav class="navbar navbar-dark blue">
     <span class="navbar-text white-text">
         Navbar text with an inline element

@@ -7,11 +7,12 @@
  */
 
 ?>
-<footer class="page-footer font-small blue pt-0" style="position: fixed; bottom: 0; width: 100%">
+<br/>
+<footer class="page-footer font-small blue pt-0" style="position: fixed;z-index: 1000; bottom: 0; width: 100%">
     <div class="footer-copyright py-3 text-center">
         <div class="container-fluid">
-            © 2017 Copyright: <a href="https://mdbootstrap.com/material-design-for-bootstrap/"><strong>
-                    MDBootstrap.com</strong></a>
+            © 2017 Copyright: <strong>
+                Wellison Rodrigues</strong>
         </div>
     </div>
 </footer>
@@ -26,4 +27,5 @@
 <script type="text/javascript" src="<?php APPPATH ?>MDB/js/bootstrap.min.js"></script>
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="<?php APPPATH ?>MDB/js/mdb.min.js"></script>
+
 </body>

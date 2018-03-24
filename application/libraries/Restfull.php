@@ -9,26 +9,14 @@
 class Restfull
 {
 
-    private $base_url;
-
-    function setBaseUrl()
-    {
-        $this->base_url = '';
-    }
-
-    function getBaseUrl()
-    {
-        return $this->base_url;
-    }
-
     function cUrl($params, $endpoint, $metodo)
     {
         $curl = curl_init();
-
+        $base_url = 'https://bfx-api.herokuapp.com';
         $array_fields = json_encode($params);
 
         curl_setopt_array($curl, array(
-            CURLOPT_URL => "$this->base_url/$endpoint",
+            CURLOPT_URL => "$base_url/$endpoint",
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => "",
             CURLOPT_MAXREDIRS => 10,
